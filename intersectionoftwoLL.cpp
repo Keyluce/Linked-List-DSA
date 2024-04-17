@@ -19,7 +19,6 @@ class Node {
 };
 Node* findIntersection(Node *firstHead, Node *secondHead)
 {
-    //Write your code here
     if (firstHead == NULL || secondHead == NULL) return NULL;
     Node* temp1 = firstHead;
     Node* temp2 = secondHead;
