@@ -51,12 +51,6 @@ Node * deleteAllOccurrences(Node* head, int k) {
 }
 
 
-
-
-
-
-
-
 int main()
 {
     Node* firstHead = new Node(1);
@@ -72,9 +66,6 @@ int main()
   
     cout << endl;
     
-
-    
-
     deleteAllOccurrences(firstHead, 3);
     Node* temp = firstHead;
     while (temp != NULL)
@@ -83,6 +74,4 @@ int main()
         temp = temp->next;
     }
 
-
- 
 }
